@@ -1,0 +1,60 @@
+﻿<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <form name="contact" action="contact.jsp"  method="get">
+      <table border="1">
+        <tr>
+           <td> First Name </td>
+           <td> <input type="text" name="first" value="tom"> </td>
+        </tr>
+        <tr>
+           <td>Password </td>
+           <td><input type="password" name="password" value=""> </td>
+        </tr>
+        <tr>
+           <td>Hobbies </td>
+           <td>
+             <input type="checkbox" name="swimming" value="swimming">swimming <br>
+             <input type="checkbox" name="reading" value="reading">reading <br>
+             <input type="checkbox" name="music" value="music">music </br>
+           </td>
+        </tr>
+        <tr>
+           <td>Working </td>
+           <td>
+             <input type="radio" name="working" value="yes">yes <br>
+             <input type="radio" name="working" value="no">no <br>
+         
+           </td>
+        </tr>
+         <tr>
+           <td>state </td>
+           <td>
+                <select name="state">
+                   <option value ="MI"> Michigan </option>
+                   <option value ="NY"> New York </option>
+                   <option value ="OH"> Ohio </option>
+                 </select>
+         
+           </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+             <input type="submit" name="submit" value="submit">
+             <input type="reset" name="reset" value="reset">
+             
+            </td>
+        </tr>
+       
+      </table>
+   
+    </form>
+
+</body>
+
+</html>
